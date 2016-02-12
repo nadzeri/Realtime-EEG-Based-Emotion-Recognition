@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Realtime Emotion Recognition</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- My own CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1>your current emotion is:</h1><br><br>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6" id="content">
+          <img src="img/loading.gif" height="400px">
+          <h2>initialization</h2>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+      var socket = io('http://localhost:8080');
+      $('form').submit(function(){
+        socket.emit('realtime emotion', $('#m').val());
+        $('#m').val('');
+        return false;
+      });
+      socket.on('realtime emotion', function(msg){
+        if(msg=='1'){
+          $('#content').html('<img src="img/1.png" height="400px"><br><h2>- fear - nervous - stress - tense - upset -</h2>');
+        }
+        else if(msg=='2'){
+          $('#content').html('<img src="img/2.png" height="400px"><br><h2>- happy - alert - excited - elated -</h2>');
+        }
+        else if(msg=='3'){
+          $('#content').html('<img src="img/3.png" height="400px"><br><h2>- relax - calm - serene - contented -</h2>');
+        }
+        else if(msg=='4'){
+          $('#content').html('<img src="img/4.png" height="400px"><br><h2>- sad - depressed - lethargic - fatigue -</h2>');
+        }
+        else if(msg=='5'){
+          $('#content').html('<img src="img/5.png" height="400px"><br><h2>- neutral -</h2>');
+        }
+      });
+    </script>
+  </body>
+</html>
