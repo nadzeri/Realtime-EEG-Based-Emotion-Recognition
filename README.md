@@ -19,5 +19,5 @@ Node JS is used as GUI.<br>
 Copyright (c) 2016 Muhammad Nadzeri Munawar<br><br>
 See my:<br>
 1. Github profile: https://github.com/nadzeri<br>
-2. LinkedIn profile: https://id.linkedin.com/in/muhammad-nadzeri-munawar-985569b1<br>
+2. LinkedIn profile: https://id.linkedin.com/in/nadzeri<br>
 3. Email: nadzeri.munawar94@gmail.com<br>
