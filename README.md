@@ -13,10 +13,11 @@ Node JS is used as GUI.<br>
 2. Socket.io<br>
 ## Demo
 1. Short Demo: https://www.youtube.com/watch?v=KeG1tCxhorI<br>
-2. Full Demo: https://www.youtube.com/watch?v=wC_b8NNXI3U
+2. Full Demo: https://www.youtube.com/watch?v=wC_b8NNXI3U<br>
+
 ## Copyright
 Copyright (c) 2016 Muhammad Nadzeri Munawar<br><br>
 See my:<br>
-- Github profile: https://github.com/nadzeri<br>
-- LinkedIn profile: https://id.linkedin.com/in/muhammad-nadzeri-munawar-985569b1<br>
-- Email: nadzeri.munawar94@gmail.com<br>
+1. Github profile: https://github.com/nadzeri<br>
+2. LinkedIn profile: https://id.linkedin.com/in/muhammad-nadzeri-munawar-985569b1<br>
+3. Email: nadzeri.munawar94@gmail.com<br>
