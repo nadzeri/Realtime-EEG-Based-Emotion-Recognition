@@ -11,3 +11,12 @@ Python is used to process EEG data.<br>
 Node JS is used as GUI.<br>
 1. Express<br>
 2. Socket.io<br>
+## Demo
+1. Short Demo: https://www.youtube.com/watch?v=KeG1tCxhorI<br>
+2. Full Demo: https://www.youtube.com/watch?v=wC_b8NNXI3U<br>
+## Copyright
+copyright (c) 2016 Muhammad Nadzeri Munawar<br>
+see my:<br>
+- Github profile: https://github.com/nadzeri<br>
+- LinkedIn profile: https://id.linkedin.com/in/muhammad-nadzeri-munawar-985569b1<br>
+- Email: nadzeri.munawar94@gmail.com<br>
