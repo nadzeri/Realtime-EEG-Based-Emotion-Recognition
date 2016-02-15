@@ -6,7 +6,7 @@ The training data was taken from my previous project.
 
 See my:
 - Github profile: https://github.com/nadzeri
-- LinkedIn profile: https://id.linkedin.com/in/muhammad-nadzeri-munawar-985569b1
+- LinkedIn profile: https://id.linkedin.com/in/nadzeri
 - Email: nadzeri.munawar94@gmail.com
 """
 
