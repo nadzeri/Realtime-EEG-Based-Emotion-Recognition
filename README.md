@@ -3,17 +3,17 @@ The purpose of this project is to provide an efficient, parametric, general, and
 ## Required Library
 ### Python
 Python is used to process EEG data.<br>
-1. Numpy<br>
-2. Scipy<br>
-3. Emokit (see https://github.com/openyou/emokit)<br>
-4. socketIO_client<br>
+1. [Numpy](http://docs.scipy.org/doc/numpy-1.10.0/user/whatisnumpy.html)<br>
+2. [Scipy](https://pypi.python.org/pypi/scipy)<br>
+3. [Emokit](https://github.com/openyou/emokit)<br>
+4. [SocketIO-client](https://pypi.python.org/pypi/socketIO-client)<br>
 ### Node JS
 Node JS is used as GUI.<br>
-1. Express<br>
-2. Socket.io<br>
+1. [Express JS](http://expressjs.com/)<br>
+2. [Socket IO](http://socket.io/)<br>
 ## Demo
-1. Short Demo: https://www.youtube.com/watch?v=KeG1tCxhorI<br>
-2. Full Demo: https://www.youtube.com/watch?v=wC_b8NNXI3U<br>
+1. [Short Demo](https://www.youtube.com/watch?v=KeG1tCxhorI)<br>
+2. [Full Demo](https://www.youtube.com/watch?v=wC_b8NNXI3U)<br>
 
 ## Copyright
 Copyright (c) 2016 Muhammad Nadzeri Munawar<br><br>
