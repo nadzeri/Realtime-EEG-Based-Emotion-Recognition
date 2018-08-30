@@ -5,7 +5,7 @@ The purpose of this project is to provide an efficient, parametric, general, and
 Python is used to process EEG data.<br>
 1. [Numpy](http://docs.scipy.org/doc/numpy-1.10.0/user/whatisnumpy.html)<br>
 2. [Scipy](https://pypi.python.org/pypi/scipy)<br>
-3. [Emokit](https://github.com/openyou/emokit)<br>
+3. [Emokit](https://github.com/openyou/emokit/tree/13512c5e078d0ff321709a31f19377fc9b7e18a1)<br>
 4. [SocketIO-client](https://pypi.python.org/pypi/socketIO-client)<br>
 ### Node JS
 Node JS is used as GUI.<br>
